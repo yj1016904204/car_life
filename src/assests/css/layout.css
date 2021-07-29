@@ -1,0 +1,118 @@
+@import "./base.css";
+.car{
+  position: relative;
+}
+.home_title {
+  height: 18px;
+  color: #666;
+  font-size: 12px;
+  background: #f4f4f4;
+  padding-left: 15px;
+  line-height: 18px;
+}
+.oul {
+  margin: 0 13px;
+}
+
+.oul li {
+  display: flex;
+  height: 46px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+
+.oul li:last-child {
+  border-bottom: none;
+}
+
+.oul li img {
+  width: 35px;
+  height: 35px;
+}
+
+.oul li p {
+  flex: 1;
+  font-size: 14px;
+  margin-left: 18px;
+}
+
+.right-float{
+  position: fixed;
+  top: 150px;
+  right: 5px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+}
+.car-data-list{
+  display: flex;
+  height: 70px;
+  font-size: 16px;
+  color:#666;
+
+}
+.car-data-list>div{
+  margin-top: 10px;
+}
+.car-data-list>div>div{
+  font-size: 12px;
+  color:rgb(231, 58, 58)
+}
+.car-data-list img{
+  width: 100px;
+  height: 70px;
+  padding-right: 10px;
+}
+
+
+.my-drawer {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 80px;
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+  
+}
+
+.flex-container{
+  background-color: #ddd;
+}
+
+.flex-container .inline {
+  width: 80px!important;
+  margin: 9px 9px 9px 0;
+}
+.price{
+  padding: 15px;
+  background-color: #fff;
+}
+
+
+.img-title{
+  position: relative;
+}
+.img-title .img-tag{
+  position: absolute!important;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:#fff;
+  font-weight: 500;
+  border-radius: 25px;
+  line-height: 25px;
+}
